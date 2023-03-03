@@ -1,7 +1,6 @@
 <h1 align="center">👍 Create Account Page</h1>
 <h3 align="center">This is a demo create account page with a starting animation</h3>
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
