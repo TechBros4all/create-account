@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./icons/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="sign-up-box">
+        <div class="page-load-box">
+            <div class="loaders">
+                <div class="outer-loader">
+                    <div class="outer-loader-right"></div>
+                    <div class="outer-loader-bottom"></div>
+                </div>
+                <div class="middle-loader">
+                    <div class="middle-loader-right"></div>
+                    <div class="middle-loader-bottom"></div>
+                </div>
+                <div class="inner-loader">
+                    <div class="inner-loader-right"></div>
+                    <div class="inner-loader-bottom"></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-box">
+            <i class="fa-solid fa-bars" id="menuToggle"></i>
+        </div>
+        <div class="menu-overlay"></div>
+        <div class="menu">
+            <div class="menu-options">
+                <a href="#" class="menu-links"><i class="fa-solid fa-house"></i>Home</a>
+                <a href="#" class="menu-links" id="menu-droplink"><i class="fa-solid fa-file"></i>Documentation <i class="fa-solid fa-caret-up" id="drop-icon"></i></a>
+                <div class="menu-dropdown">
+                    <div class="menu-drop-box">
+                        <a href="#" class="drop-links"><i class="fa-solid fa-circle circle-icon"></i>Logs</a>
+                        <a href="#" class="drop-links"><i class="fa-solid fa-circle circle-icon"></i>Badges</a>
+                        <a href="#" class="drop-links"><i class="fa-solid fa-circle circle-icon"></i>Portfolio</a>
+                    </div>
+                </div>
+                <a href="#" class="menu-links"><i class="fa-solid fa-address-book"></i>Contact</a>
+                <a href="#" class="menu-links"><i class="fa-solid fa-user"></i>Sign In</a>
+            </div>
+        </div>
+        <div class="sign-up-bg">
+            <video src="video/Violinist.mp4" autoplay loop muted></video>
+        </div>
+        <div class="sign-up">
+            <h1>Create Account</h1>
+            <form class="sign-form">
+                <div class="sign-row">
+                    <div class="name-block">
+                        <label for="fname" class="name-label">First Name</label>
+                        <input type="text" id="fname" class="name-input">
+                        <i class="fa-solid fa-address-card" id="sign-icon"></i>
+                    </div>
+                    <div class="name-block">
+                        <label for="lname" class="name-label">Last Name</label>
+                        <input type="text" id="lname" class="name-input">
+                        <i class="fa-solid fa-address-card" id="sign-icon"></i>
+                    </div>
+                </div>
+                <div class="form-block">
+                    <label for="mail" class="name-label">Email</label>
+                    <input type="text" id="mail" class="name-input">
+                    <i class="fa-solid fa-envelope" id="sign-icon"></i>
+                </div>
+                <div class="form-block">
+                    <label for="pass" class="name-label">Password</label>
+                    <input type="password" id="pass" class="name-input">
+                    <i class="eye-icon fa-solid fa-eye"></i>
+                </div>
+                <div class="sign-row sign-last" style="margin-top: 40px;">
+                    <button type="button" class="form-btn">Change Method</button>
+                    <button type="button" class="form-btn">Create Account</button>
+                </div>
+                <div class="sign-in-text">
+                    <p>Already Have An Account, <span>Sign In</span></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./icons/all.min.js"></script>
+<script src="script.js"></script>
+</html>
